@@ -29,4 +29,7 @@ jobs:
           command: |
             sudo apt install python-pip
             pip install robotframework
-      - run: python -m robot.run -d results  -L trace testcases
+      - run:
+        name: run test case
+        command: |
+          python -m robot.run -d results  -L trace testcases
