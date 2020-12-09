@@ -1,4 +1,3 @@
 #!/bin/bash
-virtualenv -p python2.7 venv
-source venv/bin/activate
+sudo apt install python-pip
 pip install -r requirements.txt
