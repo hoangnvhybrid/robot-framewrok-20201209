@@ -1,3 +1,4 @@
 #!/bin/bash
-sudo apt install python-pip
+virtualenv -p python3.8 venv
+source venv/bin/activate
 pip install -r requirements.txt
