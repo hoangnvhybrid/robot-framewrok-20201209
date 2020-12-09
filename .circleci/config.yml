@@ -24,10 +24,10 @@ jobs:
       # specify any bash command here prefixed with `run: `
       - run: echo "A first hello"
       - run: echo $PWD
-    test:
+  test:
       override:
         - python -m robot.run -d results  -L trace testcases
-    general:
+  general:
       artifacts:
         - "robot_results"
 workflows:
