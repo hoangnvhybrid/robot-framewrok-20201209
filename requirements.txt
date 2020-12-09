@@ -1,0 +1,8 @@
+robotframework
+robotframework-requests
+robotframework-imaplibrary
+robotframework-selenium2library
+robotframework-databaselibrary
+requests==2.13.0
+pyyaml
+psycopg2-binary
