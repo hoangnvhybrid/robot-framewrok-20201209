@@ -1,3 +1,2 @@
 #!/bin/bash
-
- robot ./testcases/TC001_greeting.robot
+python -m robot.run -d result -v ENV:local -L trace testcases
