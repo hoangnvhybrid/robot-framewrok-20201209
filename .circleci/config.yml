@@ -23,6 +23,7 @@ jobs:
 
       # specify any bash command here prefixed with `run: `
       - run: echo "A first hello"
+      - run: ./scripts/init.sh
       - run: ./scripts/setup.sh
       - run: ./scripts/run_test.sh
 
