@@ -24,4 +24,10 @@ jobs:
       # specify any bash command here prefixed with `run: `
       - run: echo "A first hello"
       - run: echo $PWD
+      - run:
+          name: install pip and robot framework
+          command: |
+            sudo apt install python-pip
+            pip install robotframework
+            robot --version
       - run: python -m robot.run -d results  -L trace testcases
